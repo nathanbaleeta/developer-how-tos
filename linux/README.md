@@ -18,3 +18,7 @@ ip link set eth2 up | down
 ```
 sudo ip addr add | del 172.19.1.10/24 dev eth2
 ```
+#### Flush (remove all) ip addresses of network interface
+```
+sudo ip addr flush eth2
+```
