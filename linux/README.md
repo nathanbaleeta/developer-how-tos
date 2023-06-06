@@ -24,7 +24,7 @@ iface eth2 inet static
 ```
 ip link set eth2 up | down
 ```
-#### Add or remove IP address from network interface
+#### Add or remove IP address temporarily from network interface
 ```
 sudo ip addr add | del 172.19.1.10/24 dev eth2
 ```
