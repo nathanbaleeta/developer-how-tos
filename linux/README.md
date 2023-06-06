@@ -6,5 +6,6 @@ ip link show
 ```
 #### Check an IP Address of a Specific Network Interface
 ```
-ip addr show eth2 | ip --color addr show eth2
+ip addr show eth2 
+ip --color addr show eth2  # displays IP address in coloured output
 ```
