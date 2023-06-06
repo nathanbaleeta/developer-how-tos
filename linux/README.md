@@ -10,6 +10,16 @@ ip addr show eth2
 ip --color addr show eth2  # displays IP address in coloured output
 ip -j -p addr show eth2 # display JSON output
 ```
+
+#### Permanent IP allocation
+Modify your network interface configuration file ```/etc/network/interfaces``` to make permanent changes then restart newtork:
+```
+auto eth2
+iface eth2 inet static
+        address 192.168.56.201
+        netmask 255.255.255.0
+```
+
 #### Enable or disable network interface
 ```
 ip link set eth2 up | down
