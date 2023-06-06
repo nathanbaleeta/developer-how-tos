@@ -1,9 +1,6 @@
 # Linux commands
 
-#### Setup [Apache Nifi](https://nifi.apache.org/) using Docker
-Once docker setup completes, access browser via https://localhost:8443/nifi
+#### Display all network interfaces
 ```
-docker run --name nifi \
-  -p 8443:8443 \
-  -d \
-  apa
+ip link show
+```
