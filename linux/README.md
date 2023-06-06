@@ -4,3 +4,7 @@
 ```
 ip link show
 ```
+#### Check an IP Address of a Specific Network Interface
+```
+ip link show eth2
+```
