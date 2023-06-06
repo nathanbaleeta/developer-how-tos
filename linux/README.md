@@ -8,6 +8,7 @@ ip link show
 ```
 ip addr show eth2 
 ip --color addr show eth2  # displays IP address in coloured output
+ip -j -p addr show eth2 # display JSON output which is more readable
 ```
 #### Enable or disable network interface
 ```
