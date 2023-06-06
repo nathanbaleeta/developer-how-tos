@@ -1,4 +1,4 @@
-# Linux commands for Ubuntu or Debian
+# Linux Networking commands for Ubuntu or Debian
 
 #### Display all network interfaces
 ```
