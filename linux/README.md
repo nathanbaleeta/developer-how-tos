@@ -17,7 +17,6 @@ Modify your network interface configuration file ```/etc/network/interfaces``` t
 auto eth2
 iface eth2 inet static
         address 192.168.56.201
-        netmask 255.255.255.0
 ```
 
 #### Enable or disable network interface
