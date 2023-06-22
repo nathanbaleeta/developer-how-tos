@@ -5,7 +5,7 @@
 kubectl create namespace <my-namespace>
 ```
 
-#### Display all components running in specified namespace
+#### Display all resources running in specified namespace
 ```
 kubectl get all -n <my-namespace>
 ```
