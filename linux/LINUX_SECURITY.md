@@ -5,7 +5,7 @@
 echo -n <password> | base64
 ```
 
-### 2. Generate the UNIQUE_KEY using Open SSL:
+### 2. Generate the UNIQUE_KEY using Open SSL
 ```
 openssl rand -base64 42
 ```
