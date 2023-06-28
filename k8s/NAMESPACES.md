@@ -1,4 +1,4 @@
-# Organizing your components with Namespaces
+# Organizing your components with K8s Namespaces
 
 #### Get all namespaces available in cluster
 ```
