@@ -1,5 +1,10 @@
 # Kubernetes commands for managing namespaces in an existing cluster
 
+#### Get all namespaces available in cluster
+```
+kubectl get namespace
+```
+
 #### Create a new namespace named my-namespace
 ```
 kubectl create namespace <my-namespace>
