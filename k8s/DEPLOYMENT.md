@@ -10,7 +10,7 @@ kubectl create deployment <my-deployment> -n <my-namespace>
 kubectl create deployment webapp-depl -n cloud-erp
 ```
 
-# Create a deployment named my-dep that runs the busybox image and expose port 5701
+#### Create a deployment named my-dep that runs the busybox image and expose port 5701
 ```
 kubectl create deployment my-dep --image=busybox --port=5701
 ```
