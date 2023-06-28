@@ -1,4 +1,4 @@
-# Kubernetes commands for managing namespaces in an existing cluster
+# Organizing your components with Namespaces
 
 #### Get all namespaces available in cluster
 ```
