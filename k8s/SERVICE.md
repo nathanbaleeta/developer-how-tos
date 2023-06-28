@@ -11,5 +11,5 @@ kubectl expose deployment drill-depl \
     --port 8047 \
     --target-port 8047 \
     --name=drill-svc \
-	-n drill-dev
+    -n drill-dev
 ```
