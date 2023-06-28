@@ -1,3 +1,9 @@
+#### Get all deployments in given namespace
+```
+kubectl get deployment -n <my-namespace>
+kubectl get deployment -n cloud-erp
+```
+
 #### Create deployment using docker image in specified namespace
 ```
 kubectl create deployment <my-deployment> -n <my-namespace>
