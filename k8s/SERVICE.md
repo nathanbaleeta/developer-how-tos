@@ -13,3 +13,8 @@ kubectl expose deployment drill-depl \
     --name=drill-svc \
     -n drill-dev
 ```
+
+#### To delete all services in given namespace
+```
+kubectl delete --all services -n <my-namespace>
+```
