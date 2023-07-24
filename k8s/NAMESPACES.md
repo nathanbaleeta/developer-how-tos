@@ -22,3 +22,8 @@ kubectl get all -n cloud-erp
 kubectl describe namespace <my-namespace>
 kubectl describe namespace cloud-erp
 ```
+
+#### Delete namespace
+```
+kubectl delete ns <my-namespace>
+```
