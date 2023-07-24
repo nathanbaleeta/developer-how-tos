@@ -29,3 +29,8 @@ kubectl describe deployment webapp-depl -n cloud-erp
 kubectl edit deployment <my-deployment> -n <my-namespace>
 kubectl edit deployment webapp-depl -n cloud-erp
 ```
+
+#### Delete all deployment in given namespace
+```
+kubectl delete --all deployments -n <my-namespace>
+```
