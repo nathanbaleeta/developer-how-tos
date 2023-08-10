@@ -6,7 +6,7 @@ docker buildx build --platform linux/amd64,linux/arm64 \
 --tag your_docker_username/multi_arch_sample:buildx-latest .
 ```
 
-#### Specifying the platform to both the build command and version tag was enough
+#### Specifying the platform to both the build command and version tag - Docker in fact detects the Apple M1 Pro platform as linux/arm64/v8
 ```
 # Build for ARM64 (default)
 docker build -t <image-name>:<version>-arm64 .
