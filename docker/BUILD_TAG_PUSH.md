@@ -10,3 +10,8 @@ docker buildx build --platform linux/amd64,linux/arm64 \
 ```
 docker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]
 ```
+
+#### Upload an image to a [registry](https://docs.docker.com/engine/reference/commandline/push/)
+```
+docker push [OPTIONS] NAME[:TAG]
+```
