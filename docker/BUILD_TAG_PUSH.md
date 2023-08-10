@@ -6,6 +6,18 @@ docker buildx build --platform linux/amd64,linux/arm64 \
 --tag your_docker_username/multi_arch_sample:buildx-latest .
 ```
 
+#### Specifying the platform to both the build command and version tag was enough
+```
+# Build for ARM64 (default)
+docker build -t <image-name>:<version>-arm64 .
+
+# Build for ARM64 
+docker build --platform=linux/arm64 -t <image-name>:<version>-arm64 .
+
+# Build for AMD64
+docker build --platform=linux/amd64 -t <image-name>:<version>-amd64 .
+```
+
 #### Tag image - Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
 ```
 docker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]
