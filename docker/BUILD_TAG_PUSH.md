@@ -8,11 +8,11 @@ docker buildx build --platform linux/amd64,linux/arm64 \
 
 #### Specifying the platform to both the build command and version tag - Docker in fact detects the Apple M1 Pro platform as linux/arm64/v8
 ```
-# Build for ARM64 
-docker buildx build --platform=linux/arm64/v8 -t <image-name>:<version>-arm64 .
-
 # Build for AMD64
 docker buildx build --platform=linux/amd64 -t <image-name>:<version>-amd64 .
+
+# Build for ARM64 
+docker buildx build --platform=linux/arm64/v8 -t <image-name>:<version>-arm64 .
 ```
 
 #### Tag image - Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
