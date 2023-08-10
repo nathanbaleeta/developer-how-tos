@@ -30,6 +30,9 @@ docker tag hello-world:latest nbaleeta/hello-world:latest
 #### Login to your container registry
 ```
 docker login
+
+OR
+docker login myregistry.azurecr.io
 ```
 
 #### Upload an image to a [registry](https://docs.docker.com/engine/reference/commandline/push/)
