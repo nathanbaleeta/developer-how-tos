@@ -18,7 +18,7 @@ docker buildx use cross-platform-builder
 docker buildx inspect
 
 docker buildx build --builder magasin-cross-platform-builder \
-                    --tag <image>:<version> .
+                    --tag hello-world:latest .
 ```
 
 #### Tag image - Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
