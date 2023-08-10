@@ -27,6 +27,11 @@ docker tag <SOURCE_IMAGE>:<TAG> <TARGET_IMAGE:TAG>
 docker tag hello-world:latest nbaleeta/hello-world:latest
 ```
 
+#### Login to your container registry
+```
+docker login
+```
+
 #### Upload an image to a [registry](https://docs.docker.com/engine/reference/commandline/push/)
 ```
 docker push <image>:<version>
