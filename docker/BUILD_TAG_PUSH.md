@@ -2,7 +2,7 @@
 
 #### Jumpstart your [multi-architecture build](https://www.docker.com/blog/how-to-rapidly-build-multi-architecture-images-with-buildx/)
 ```
-docker buildx build --platform linux/amd64,linux/arm64 \
+docker buildx build --platform linux/amd64,linux/arm64/v8 \
                     --tag <image-name>:<version> .
 ```
 
