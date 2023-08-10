@@ -1,4 +1,4 @@
-# Build Multi-Architecture Images with Buildx
+# Build multi-architecture images with Buildx
 
 #### Specifying the platform to both the build command and version tag - Docker in fact detects the Apple M1 Pro platform as linux/arm64/v8
 ```
