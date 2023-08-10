@@ -27,7 +27,7 @@ docker tag <SOURCE_IMAGE>:<TAG> <TARGET_IMAGE:TAG>
 docker tag hello-world:latest nbaleeta/hello-world:latest
 ```
 
-#### Login to your container registry
+#### Login to your remote container registry
 ```
 docker login
 
