@@ -36,6 +36,11 @@ OR
 docker login myregistry.azurecr.io
 ```
 
+#### Pull public image from Azure Container Registry
+```
+docker pull myregistry.azurecr.io/hello-world:latest
+```
+
 #### Upload an image to a [registry](https://docs.docker.com/engine/reference/commandline/push/)
 ```
 docker push <image>:<version>
