@@ -23,7 +23,7 @@ docker buildx build --builder magasin-cross-platform-builder \
 
 #### Tag image - Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
 ```
-docker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]
+docker tag <SOURCE_IMAGE>:<TAG> <TARGET_IMAGE:TAG>
 docker tag hello-world:latest nbaleeta/hello-world:latest
 ```
 
