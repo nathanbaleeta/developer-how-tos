@@ -1,11 +1,5 @@
 # Build Multi-Architecture Images with Buildx
 
-#### Jumpstart your [multi-architecture build](https://www.docker.com/blog/how-to-rapidly-build-multi-architecture-images-with-buildx/)
-```
-docker buildx build --platform linux/amd64,linux/arm64/v8 \
-                    --tag <image-name>:<version> .
-```
-
 #### Specifying the platform to both the build command and version tag - Docker in fact detects the Apple M1 Pro platform as linux/arm64/v8
 ```
 # Build for AMD64
@@ -15,7 +9,7 @@ docker buildx build --platform=linux/amd64 -t <image-name>:<version>-amd64 .
 docker buildx build --platform=linux/arm64/v8 -t <image-name>:<version>-arm64 .
 ```
 
-#### Create [custom builder instance](https://medium.com/@josephadewole1/how-to-build-multiarch-images-in-docker-4cdd552c2fe3) that supports specific platforms, verify docker has indeed switched builders
+#### Create [custom builder instance](https://medium.com/@josephadewole1/how-to-build-multiarch-images-in-docker-4cdd552c2fe3) that supports multi platforms, verify docker has indeed switched builders
 ```
 docker buildx create --name cross-platform-builder --platform linux/arm64,linux/arm/v8
 
