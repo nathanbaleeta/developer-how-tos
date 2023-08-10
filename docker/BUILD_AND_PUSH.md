@@ -6,7 +6,7 @@ docker buildx build --platform linux/amd64,linux/arm64 \
 --tag your_docker_username/multi_arch_sample:buildx-latest .
 ```
 
-#### Tag image
+#### Tag image - Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
 ```
-docker tag your_docker_username/multi_arch_sample:buildx-latest .
+docker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]
 ```
