@@ -35,6 +35,6 @@ docker tag hello-world:latest nbaleeta/hello-world:latest
 
 #### Upload an image to a [registry](https://docs.docker.com/engine/reference/commandline/push/)
 ```
-docker push [OPTIONS] NAME[:TAG]
+docker push <image>:<version>
 docker push nbaleeta/hello-world
 ```
