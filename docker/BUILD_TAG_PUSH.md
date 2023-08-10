@@ -32,6 +32,7 @@ docker tag hello-world:latest nbaleeta/hello-world:latest
 docker login
 
 OR
+
 docker login myregistry.azurecr.io
 ```
 
