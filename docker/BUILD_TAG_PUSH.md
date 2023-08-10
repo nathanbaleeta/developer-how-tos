@@ -18,6 +18,7 @@ docker buildx build --platform=linux/arm64/v8 -t <image-name>:<version>-arm64 .
 #### Tag image - Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
 ```
 docker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]
+docker tag hello-world:latest nbaleeta/hello-world:latest
 ```
 
 #### Upload an image to a [registry](https://docs.docker.com/engine/reference/commandline/push/)
