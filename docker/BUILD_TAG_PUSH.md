@@ -7,6 +7,7 @@ docker buildx build --platform=linux/amd64 -t <image-name>:<version>-amd64 .
 
 # Build for ARM64 
 docker buildx build --platform=linux/arm64/v8 -t <image-name>:<version>-arm64 .
+docker buildx build --build-arg VERSION=3.8.2 --platform=linux/arm64/v8 -t <image-name>:<version>-arm64
 ```
 
 
