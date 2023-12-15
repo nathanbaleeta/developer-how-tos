@@ -13,3 +13,8 @@ brew info postgresql
 ```
 /opt/homebrew/opt/postgresql@14/bin/postgres -D /opt/homebrew/var/postgresql@14
 ```
+
+#### To start postgresql@14 now and restart at login:
+```
+brew services start postgresql@14
+```
