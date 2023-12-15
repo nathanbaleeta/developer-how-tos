@@ -24,7 +24,7 @@ brew info postgresql
 brew services start postgresql@14
 ```
 
-####  Restart the service immediately and register it to launch at login (or boot)
+####  Restart the service immediately and persist across reboots:
 ```
 brew services restart postgresql@14
 ```
