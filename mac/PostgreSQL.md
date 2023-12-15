@@ -43,3 +43,15 @@ brew services restart postgresql@14
 ```
 brew services kill postgresql@14
 ```
+
+#### start/stop pgsql using aliases. Add following short cuts to ~/.bashrc file
+```
+alias start-pg='brew services start postgresql'
+alias stop-pg='brew services stop postgresql'
+alias restart-pg='brew services restart postgresql'
+```
+
+#### Before running alias, execute command:
+```
+source ~/.bashrc or exec bash
+```
