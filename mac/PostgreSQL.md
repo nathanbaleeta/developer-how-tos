@@ -4,6 +4,11 @@
 brew install postgresql@14
 ```
 
+#### View current services running on machine - to confirm PostgreSQL is inclusive
+```
+brew services list
+```
+
 #### View information about PostgreSQL on machine
 ```
 brew info postgresql
