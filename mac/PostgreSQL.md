@@ -1,4 +1,4 @@
-#### Install PostgreSQL on Mac local machine
+#### Install PostgreSQL on local machine
 
 ```
 brew install postgresql@14
