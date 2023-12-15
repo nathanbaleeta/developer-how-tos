@@ -28,3 +28,8 @@ brew services start postgresql@14
 ```
 brew services restart postgresql@14
 ```
+
+#### Stop the service but persists across reboots:
+```
+brew services kill postgresql@14
+```
