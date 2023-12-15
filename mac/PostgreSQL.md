@@ -55,3 +55,8 @@ alias restart-pg='brew services restart postgresql'
 ```
 source ~/.bashrc or exec bash
 ```
+
+#### Start PostgreSQL terminal (root privileges)
+```
+psql postgres
+```
