@@ -24,6 +24,11 @@ brew info postgresql
 brew services start postgresql@14
 ```
 
+#### Stop the service immediately and unregister from launching at boot 
+```
+brew services stop postgresql@14
+```
+
 ####  Restart the service immediately and persist across reboots:
 ```
 brew services restart postgresql@14
