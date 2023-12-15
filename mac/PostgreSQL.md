@@ -9,7 +9,7 @@ brew install postgresql@14
 brew services list
 ```
 
-#### View information about PostgreSQL on machine
+#### View information about PostgreSQL service
 ```
 brew info postgresql
 ```
