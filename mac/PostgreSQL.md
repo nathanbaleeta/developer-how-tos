@@ -3,3 +3,8 @@
 ```
 brew install postgresql@15
 ```
+
+#### View information about PostgreSQL on machine
+```
+brew info postgresql
+```
