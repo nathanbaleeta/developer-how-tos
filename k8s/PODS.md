@@ -11,4 +11,8 @@ kubectl -n <namespace> delete pods --field-selector=status.phase=Failed
 ```
 kubectl exec -n <namespace> <name_of_pod> -- printenv
 ```
+## Create privileged user on Superset pod
+```
+kubectl exec -n <namespace> -it <SUPERSET_POD> -- superset fab create-admin
+```
 
