@@ -7,7 +7,7 @@ kubectl exec -n <namespace> -it <name_of_pod> -- /bin/bash
 ```
 kubectl -n <namespace> delete pods --field-selector=status.phase=Failed
 ```
-## Display pod environmental variables in in specific namespace
+## Display pod environment variables in in specific namespace
 ```
 kubectl exec -n <namespace> <name_of_pod> -- printenv
 ```
