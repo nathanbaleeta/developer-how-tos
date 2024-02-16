@@ -15,4 +15,7 @@ kubectl exec -n <namespace> <name_of_pod> -- printenv
 ```
 kubectl exec -n <namespace> -it <SUPERSET_POD> -- superset fab create-admin
 ```
-
+## Upgrade database migrations on Superset pod
+```
+kubectl exec -n <namespace> -it <SUPERSET_POD> -- superset db upgrade
+```
