@@ -14,3 +14,8 @@ az account show
 ```
 az account set --subscription <mysubscription>
 ```
+
+#### Clear all subscriptions from the CLI's local cache
+```
+az account clear
+```
