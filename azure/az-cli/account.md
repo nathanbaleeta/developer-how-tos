@@ -9,3 +9,8 @@ az account list
 ```
 az account show
 ```
+
+#### Set a subscription to be the current active subscription
+```
+az account set --subscription <mysubscription>
+```
