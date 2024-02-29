@@ -1,4 +1,4 @@
-## Manage Azure Active Directory group members
+## Manage Azure Active Directory [group members](https://learn.microsoft.com/en-us/cli/azure/ad/group/member?view=azure-cli-latest)
 
 #### Add a member to a group
 ```
