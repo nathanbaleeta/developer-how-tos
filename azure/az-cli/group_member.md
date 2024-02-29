@@ -21,6 +21,7 @@ az ad group member list --group <MyGroupDisplayName>
 
 #### Remove a member from a group
 ```
-az ad group member remove --group MyGroupDisplayName \
-                          --member-id xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+az ad group member remove \
+            --group MyGroupDisplayName \
+            --member-id xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 ```
