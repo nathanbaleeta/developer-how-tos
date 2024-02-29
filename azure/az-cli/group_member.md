@@ -7,6 +7,9 @@ az ad group member add --group <displayName>
 ```
 
 #### Check if a member is in a group
+```
+az ad group member check --group MyGroupDisplayName --member-id xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+```
 
 #### Get the members of a group
 
