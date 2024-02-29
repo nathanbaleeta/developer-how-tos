@@ -20,3 +20,8 @@ az ad user list
 ```
 az ad user show --id <myuser@contoso.com>
 ```
+
+#### Update Azure Active Directory users 
+```
+az ad user update --id myuser@contoso.com --display-name username2
+```
