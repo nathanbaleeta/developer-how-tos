@@ -6,3 +6,7 @@ az ad user create --display-name <SomeUser>
                   --password <pass>
                   --user-principal-name <someuser@contoso.com>
 ```
+#### Delete Azure Active Directory user
+```
+az ad user delete --id myuser@contoso.com
+```
