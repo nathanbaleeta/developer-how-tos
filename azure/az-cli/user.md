@@ -25,3 +25,8 @@ az ad user show --id <myuser@contoso.com>
 ```
 az ad user update --id myuser@contoso.com --display-name username2
 ```
+
+#### Get groups of which the user is a member
+```
+az ad user get-member-groups --id <myuser@contoso.com>
+```
