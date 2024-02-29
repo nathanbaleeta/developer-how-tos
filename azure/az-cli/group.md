@@ -4,3 +4,8 @@
 ```
 az ad group create --display-name <MyDisplay> --mail-nickname <MyDisplay>
 ```
+
+#### Delete a group from the directory
+```
+az ad group delete --group <display-name>
+```
