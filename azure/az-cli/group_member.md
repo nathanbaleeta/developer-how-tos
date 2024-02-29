@@ -16,7 +16,8 @@ az ad group member check \
 
 #### Get the members of a group
 ```
-az ad group member list --group <MyGroupDisplayName>
+az ad group member list \
+            --group <MyGroupDisplayName>
 ```
 
 #### Remove a member from a group
