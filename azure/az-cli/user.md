@@ -10,3 +10,8 @@ az ad user create --display-name <SomeUser>
 ```
 az ad user delete --id myuser@contoso.com
 ```
+
+#### List Azure Active Directory users
+```
+az ad user list
+```
