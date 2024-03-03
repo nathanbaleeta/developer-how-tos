@@ -40,26 +40,22 @@ helm uninstall my-release -n <namespace>
 Ingress Resource: object with a set of routing rules. Ingress exposes ```HTTP``` and ```HTTPS``` routes from outside the cluster to services within the cluster
 
 ```
-apiVersion: networking.k8s.io/v1beta1
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: my-ingress
-  namespace: <namespace>   
-  annotations:
-    kubernetes.io/ingress.class: nginx
+  namespace: <namespace> 
 spec:
   rules:
-    - host: my.domain-name.xyz
-      http:
-        paths:
-          - backend:
-              serviceName: <serviceName>
-              servicePort: <port>
-            path: /
-  # This section is only required if TLS is to be enabled for the Ingress
-  tls:
-      - hosts:
-          - my.domain-name.xyz
-        secretName: xxx-xxx-xxx-xx
+  - host: "my-domain.xyz"
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: <serviceName>
+            port:
+              number: 80
 ```
 
