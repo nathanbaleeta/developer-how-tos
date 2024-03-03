@@ -21,3 +21,8 @@ helm list -n <namespace>
 ```
 helm upgrade my-release oci://ghcr.io/nginxinc/charts/nginx-ingress --version 1.1.3 -n <namespace>
 ```
+
+#### Uninstalling the Chart using Helm
+```
+helm uninstall my-release -n <namespace>
+```
