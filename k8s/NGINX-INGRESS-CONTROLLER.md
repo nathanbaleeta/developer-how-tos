@@ -8,7 +8,7 @@ Kubernetes Ingress controllers:
 
 
 ### Installing the Chart using Helm
-#### Create namespace
+##### Create namespace
 ```
 kubectl create ns nginx-ingress
 ```
