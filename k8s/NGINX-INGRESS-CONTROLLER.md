@@ -38,3 +38,20 @@ helm uninstall my-release -n <namespace>
 
 ## Add an Ingress Rule Manifest
 
+```
+apiVersion: extensions/v1beta1  
+kind: Ingress  
+metadata:  
+ name: my-ingress  
+ annotations:  
+  kubernetes.io/ingress.class: "nginx"  
+spec:  
+  rules:  
+  - http:  
+     paths:  
+     - path: /my/path  
+       backend:  
+        serviceName: my-svc  
+        servicePort: 8080
+```
+
