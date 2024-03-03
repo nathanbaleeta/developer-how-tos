@@ -17,8 +17,8 @@ kubectl create ns nginx-ingress
 helm install my-release oci://ghcr.io/nginxinc/charts/nginx-ingress --version 1.1.3 -n nginx-ingress
 ```
 ##### Voila!
-```kubectl get po -n nginx-ingress
-
+```
+kubectl get po -n nginx-ingress
 ```
 
 #### List Helm releases in specific namespace
