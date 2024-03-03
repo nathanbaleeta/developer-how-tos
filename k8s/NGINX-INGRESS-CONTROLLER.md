@@ -37,7 +37,7 @@ helm uninstall my-release -n <namespace>
 ```
 
 ## Add an Ingress Rule Manifest
-Ingress Resource: object with a set of routing rules. Ingress exposes HTTP and HTTPS routes from outside the cluster to services within the cluster
+Ingress Resource: object with a set of routing rules. Ingress exposes ```HTTP``` and ```HTTPS``` routes from outside the cluster to services within the cluster
 
 ```
 apiVersion: extensions/v1beta1  
