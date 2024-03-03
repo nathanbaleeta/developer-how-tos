@@ -1,4 +1,4 @@
-### Overview
+## Overview
 An [Ingress controller](https://docs.nginx.com/nginx-ingress-controller/installation/installing-nic/installation-with-helm/) is a specialized load balancer for Kubernetes (and other containerized) environments. For many enterprises, moving production workloads into Kubernetes brings additional challenges and complexities around application traffic management. An Ingress controller abstracts away the complexity of Kubernetes application traffic routing and provides a bridge between Kubernetes services and external ones.
 Kubernetes Ingress controllers:
 - Accept traffic from outside the Kubernetes platform, and load balance it to pods (containers) running inside the platform
@@ -7,7 +7,12 @@ Kubernetes Ingress controllers:
 - Monitor the pods running in Kubernetes and automatically update the load‑balancing rules when pods are added or removed from a service
 
 
-#### Installing the Chart using Helm
+### Installing the Chart using Helm
+#### Create namespace
+```
+kubectl create ns namespace
+```
+
 ```
 helm install my-release oci://ghcr.io/nginxinc/charts/nginx-ingress --version 1.1.3 -n <namespace>
 ```
