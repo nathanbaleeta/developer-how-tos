@@ -35,3 +35,6 @@ helm upgrade my-release oci://ghcr.io/nginxinc/charts/nginx-ingress --version 1.
 ```
 helm uninstall my-release -n <namespace>
 ```
+
+## Add an Ingress Rule Manifest
+
