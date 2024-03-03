@@ -12,9 +12,13 @@ Kubernetes Ingress controllers:
 ```
 kubectl create ns nginx-ingress
 ```
-
+##### Install the chart
 ```
 helm install my-release oci://ghcr.io/nginxinc/charts/nginx-ingress --version 1.1.3 -n nginx-ingress
+```
+##### Voila!
+```kubectl get po -n nginx-ingress
+
 ```
 
 #### List Helm releases in specific namespace
