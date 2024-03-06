@@ -57,3 +57,15 @@ It may take several minutes for the application gateway to be created. After the
     - appGatewayFrontendIP - Assigns myAGPublicIPAddress to appGatewayHttpListener.
     - rule1 - The default routing rule that is associated with appGatewayHttpListener.
 
+### Test the application gateway
+
+To get the public IP address of the application gateway, use az network public-ip show. Copy the public IP address, and then paste it into the address bar of your browser.
+
+```
+az network public-ip show \
+ --resource-group myResourceGroupAG \
+ --name myAGPublicIPAddress \
+ --query [ipAddress] \
+ --output tsv
+```
+
