@@ -69,3 +69,10 @@ az network public-ip show \
  --output tsv
 ```
 
+### Clean up resources
+
+When no longer needed, remove the resource group, application gateway, and all related resources.
+```
+az group delete --name myResourceGroupAG --location eastus
+```
+
