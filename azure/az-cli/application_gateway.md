@@ -51,11 +51,11 @@ az network application-gateway create \
 
 It may take several minutes for the application gateway to be created. After the application gateway is created, you'll see these new features:
 
-    * _appGatewayBackendPool_ - An application gateway must have at least one backend address pool.
-    * appGatewayBackendHttpSettings - Specifies that port 80 and an HTTP protocol is used for communication.
-    * appGatewayHttpListener - The default listener associated with appGatewayBackendPool.
-    * appGatewayFrontendIP - Assigns myAGPublicIPAddress to appGatewayHttpListener.
-    * rule1 - The default routing rule that is associated with appGatewayHttpListener.
+    * *appGatewayBackendPool* - An application gateway must have at least one backend address pool.
+    * *appGatewayBackendHttpSettings* - Specifies that port 80 and an HTTP protocol is used for communication.
+    * *appGatewayHttpListener* - The default listener associated with appGatewayBackendPool.
+    * *appGatewayFrontendIP* - Assigns myAGPublicIPAddress to appGatewayHttpListener.
+    * *rule1* - The default routing rule that is associated with appGatewayHttpListener.
 
 ### Test the application gateway
 
