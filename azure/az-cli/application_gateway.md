@@ -29,3 +29,22 @@ az network public-ip create \
  --allocation-method Static \
  --sku Standard
 ```
+
+### Create an application gateway
+Use az network application-gateway create to create the application gateway named myAppGateway. When you create an application gateway using the Azure CLI, you specify configuration information, such as capacity, sku, and HTTP settings. The application gateway is assigned to myAGSubnet and myPublicIPAddress that you previously created.
+```
+az network application-gateway create \
+ --name myAppGateway \
+ --location eastus \
+ --resource-group myResourceGroupAG \
+ --vnet-name myVNet \
+ --subnet myAGsubnet \
+ --capacity 2 \
+ --sku Standard_v2 \
+ --http-settings-cookie-based-affinity Disabled \
+ --frontend-port 80 \
+ --http-settings-port 80 \
+ --http-settings-protocol Http \
+ --public-ip-address myAGPublicIPAddress \
+ --priority 100
+```
