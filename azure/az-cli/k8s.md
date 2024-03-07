@@ -5,7 +5,7 @@
 az group create --name myResourceGroup --location eastus
 ```
 
-#### Create basic cluster with managed identity enabled
+#### Create basic [cluster](https://learn.microsoft.com/en-us/cli/azure/aks?view=azure-cli-latest#az-aks-create) with managed identity enabled
 ```
 az aks create --resource-group myResourceGroup \
     --name myAKSCluster \
