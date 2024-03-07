@@ -24,6 +24,11 @@ az aks get-credentials --resource-group myResourceGroup --name myAKSCluster
 kubectl get nodes
 ```
 
+#### Validate the ACR is accessible from the AKS cluster
+```
+az aks check-acr --name myAKSCluster --resource-group MyResourceGroup --acr myacr.azurecr.io
+```
+
 #### Tear down resource group including all resources created under it
 ```
 az group delete --name myResourceGroup
