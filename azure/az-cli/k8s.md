@@ -24,6 +24,11 @@ az aks get-credentials --resource-group myResourceGroup --name myAKSCluster
 kubectl get nodes
 ```
 
+#### Show the dashboard for a K8s cluster in a web browser
+```
+az aks browse --name myAKSCluster --resource-group MyResourceGroup
+```
+
 #### Validate the ACR is accessible from the AKS cluster
 ```
 az aks check-acr --name myAKSCluster --resource-group MyResourceGroup --acr myacr.azurecr.io
