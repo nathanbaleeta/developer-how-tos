@@ -14,7 +14,7 @@ az aks create --resource-group myResourceGroup \
     --node-count 2 \
     --generate-ssh-keys
 ```
-#### Configure kubectl to connect to your Kubernetes cluster
+#### Configure [kubectl](https://learn.microsoft.com/en-us/azure/aks/learn/quick-kubernetes-deploy-cli) to connect to your Kubernetes cluster
 ```
 az aks get-credentials --resource-group myResourceGroup --name myAKSCluster
 ```
