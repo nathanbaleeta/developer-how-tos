@@ -29,7 +29,7 @@ kubectl get nodes
 az aks browse --name myAKSCluster --resource-group MyResourceGroup
 ```
 
-#### Validate the ACR is accessible from the AKS cluster
+#### Validate the [ACR](https://learn.microsoft.com/en-us/cli/azure/aks?view=azure-cli-latest#az-aks-check-acr) is accessible from the AKS cluster
 ```
 az aks check-acr --name myAKSCluster --resource-group MyResourceGroup --acr myacr.azurecr.io
 ```
