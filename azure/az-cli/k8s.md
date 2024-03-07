@@ -24,7 +24,7 @@ az aks get-credentials --resource-group myResourceGroup --name myAKSCluster
 kubectl get nodes
 ```
 
-#### Show the dashboard for a K8s cluster in a web browser
+#### Show the [dashboard](https://learn.microsoft.com/en-us/cli/azure/aks?view=azure-cli-latest#az-aks-browse(aks-preview)) for a K8s cluster in a web browser
 ```
 az aks browse --name myAKSCluster --resource-group MyResourceGroup
 ```
