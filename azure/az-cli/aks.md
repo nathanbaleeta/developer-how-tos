@@ -14,7 +14,7 @@ az aks create --resource-group myResourceGroup \
     --node-count 2 \
     --generate-ssh-keys
 ```
-#### Connect kubectl and make sure commands can be run against the cluster
+#### Configure kubectl to connect to your Kubernetes cluster
 ```
 az aks get-credentials --resource-group myResourceGroup --name myAKSCluster
 ```
