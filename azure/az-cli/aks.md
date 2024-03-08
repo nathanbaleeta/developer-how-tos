@@ -1,5 +1,10 @@
 ## Set up basic AKS cluster
 
+#### List K8s available as of today
+```
+az aks get-versions --location westeurope -o table
+```
+
 #### Create resource group 
 ```
 az group create --name myResourceGroup --location eastus
