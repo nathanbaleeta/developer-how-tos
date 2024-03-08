@@ -3,6 +3,7 @@
 ### Get a list of subscriptions for the logged in account
 ```
 az account list
+az account list --refresh -o table
 ```
 
 ### Get the details of a subscription
