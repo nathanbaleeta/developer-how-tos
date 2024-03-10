@@ -27,6 +27,7 @@ az aks get-credentials --admin --name MyManagedCluster --resource-group MyResour
 In case the kubectl return authetication issues, run commands below
 [kubelogin](https://azure.github.io/kubelogin/quick-start.html) by default will use the kubeconfig from ${KUBECONFIG}. Specify --kubeconfig to override.
 this converts to use azurecli login mode</b>
+Use kubelogin plugin for authentication
 ```
 kubelogin convert-kubeconfig -l azurecli
 ```
