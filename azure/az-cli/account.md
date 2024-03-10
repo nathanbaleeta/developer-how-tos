@@ -19,6 +19,11 @@ az account show
 az account set --subscription <mysubscription>
 ```
 
+### Get access credentials for a managed Kubernetes cluster
+```
+az aks get-credentials --admin --name MyManagedCluster --resource-group MyResourceGroup
+```
+
 In case the kubectl return authetication issues, run commands below
 [kubelogin](https://azure.github.io/kubelogin/quick-start.html) by default will use the kubeconfig from ${KUBECONFIG}. Specify --kubeconfig to override.
 this converts to use azurecli login mode</b>
