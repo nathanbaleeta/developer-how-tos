@@ -40,7 +40,7 @@ az aks browse --name myAKSCluster --resource-group MyResourceGroup
 az aks check-acr --name myAKSCluster --resource-group MyResourceGroup --acr myacr.azurecr.io
 ```
 
-#### Manually scale the node count
+#### [Manually scale the node count](https://learn.microsoft.com/en-us/azure/aks/scale-cluster?tabs=azure-cli)
 Get the name of your node pool using the ```az aks show``` command:
 ```
 az aks show --resource-group myResourceGroup --name myAKSCluster --query agentPoolProfiles
