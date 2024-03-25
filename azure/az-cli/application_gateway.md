@@ -21,7 +21,7 @@ az network vnet subnet create \
  --name myBackendSubnet \
  --resource-group myResourceGroupAG \
  --vnet-name myVNet \
- --address-prefix 10.0.2.0/24
+ --address-prefix 10.224.0.0/16
 
 az network public-ip create \
  --resource-group myResourceGroupAG \
