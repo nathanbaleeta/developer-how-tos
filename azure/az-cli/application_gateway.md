@@ -13,7 +13,7 @@ az network vnet create \
  --name myVNet \
  --resource-group myResourceGroupAG \
  --location eastus \
- --address-prefix 10.0.0.0/16 \
+ --address-prefix 10.224.0.0/12 \
  --subnet-name myAGSubnet \
  --subnet-prefix 10.0.1.0/24
 
