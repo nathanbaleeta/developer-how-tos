@@ -15,7 +15,7 @@ az network vnet create \
  --location eastus \
  --address-prefix 10.224.0.0/12 \
  --subnet-name myAGSubnet \
- --subnet-prefix 10.0.1.0/24
+ --subnet-prefix 10.225.0.0/16
 
 az network vnet subnet create \
  --name myBackendSubnet \
