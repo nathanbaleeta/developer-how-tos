@@ -35,8 +35,20 @@ az aks browse --name myAKSCluster --resource-group MyResourceGroup
 ```
 
 #### Validate the [ACR](https://learn.microsoft.com/en-us/cli/azure/aks?view=azure-cli-latest#az-aks-check-acr) is accessible from the AKS cluster
+
 ```
 az aks check-acr --name myAKSCluster --resource-group MyResourceGroup --acr myacr.azurecr.io
+```
+
+#### Manually scale the node count
+Get the name of your node pool using the ```az aks show``` command:
+```
+az aks show --resource-group myResourceGroup --name myAKSCluster --query agentPoolProfiles
+```
+
+Scale the cluster nodes using the ```az aks scale``` command
+```
+az aks scale --resource-group myResourceGroup --name myAKSCluster --node-count 1 --nodepool-name <your node pool name>
 ```
 
 #### Tear down resource group including all resources created under it
