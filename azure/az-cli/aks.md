@@ -56,7 +56,7 @@ az aks scale --resource-group myResourceGroup --name myAKSCluster --node-count 1
 az group delete --name myResourceGroup
 ```
 
-#### Start an AKS cluster
+#### Start an AKS cluster (The cluster restarts with the previous control plane state and number of agent nodes)
 ```
 az aks start --name myAKSCluster --resource-group myResourceGroup
 ```
