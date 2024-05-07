@@ -55,3 +55,8 @@ az aks scale --resource-group myResourceGroup --name myAKSCluster --node-count 1
 ```
 az group delete --name myResourceGroup
 ```
+
+#### Start an AKS cluster
+```
+az aks start --name myAKSCluster --resource-group myResourceGroup
+```
