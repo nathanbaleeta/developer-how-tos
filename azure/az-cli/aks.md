@@ -60,3 +60,8 @@ az group delete --name myResourceGroup
 ```
 az aks start --name myAKSCluster --resource-group myResourceGroup
 ```
+
+#### Stop a running AKS cluster, including the nodes and control plane
+```
+az aks stop --name myAKSCluster --resource-group myResourceGroup
+```
