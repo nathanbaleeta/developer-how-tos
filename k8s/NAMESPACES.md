@@ -27,3 +27,26 @@ kubectl describe namespace cloud-erp
 ```
 kubectl delete ns <my-namespace>
 ```
+
+#### Force delete namespace (Single line command)
+```
+kubectl delete ns <my-namespace>
+
+kubectl patch ns <my-namespace> -p '{"metadata":{"finalizers":null}}'
+```
+
+OR
+```
+kubectl delete ns <my-namespace>
+```
+In one terminal:
+```
+kubectl proxy
+```
+
+In another terminal:
+```
+kubectl get ns delete-me -o json | \
+  jq '.spec.finalizers=[]' | \
+  curl -X PUT http://localhost:8001/api/v1/namespaces/delete-me/finalize -H "Content-Type: application/json" --data @-
+```
