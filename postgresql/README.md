@@ -28,3 +28,7 @@ brew info postgresql
 brew services start | restart postgresql@14
 ```
 
+PostgreSQL connection string
+```
+psql://<UserName>:<DBPassword>@<Database Host>/<Database Name>
+```
