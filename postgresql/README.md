@@ -3,3 +3,8 @@
 ```
 brew info postgresql
 ```
+
+### Start or restart PostgreSQL automatically
+```
+brew services start | restart postgresql@14
+```
