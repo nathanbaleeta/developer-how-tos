@@ -2,6 +2,11 @@
 ```
 brew install postgresql@14
 ```
+
+### Uninstall specific version of PostgreSQL e.g 14
+```
+brew uninstall postgresql@14
+```
 #### Check status of PostgreSQL server Mac OS X
 ```
 brew info postgresql
