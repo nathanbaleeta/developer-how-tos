@@ -7,6 +7,12 @@ brew install postgresql@14
 ```
 brew uninstall postgresql@14
 ```
+
+### Upgrade PostgreSQL formulae within a version 
+```
+brew upgrade postgresql
+```
+
 #### Check status of PostgreSQL server Mac OS X
 ```
 brew info postgresql
