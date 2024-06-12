@@ -8,6 +8,11 @@ brew install postgresql@14
 brew uninstall postgresql@14
 ```
 
+### Check PostgreSQL version
+```
+postgres -V
+```
+
 ### Upgrade PostgreSQL formulae within a version 
 ```
 brew upgrade postgresql
