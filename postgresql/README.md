@@ -28,7 +28,7 @@ brew info postgresql
 brew services start | restart postgresql@14
 ```
 
-### PostgreSQL connection string. For Mac hostname use `host.docker.internal` 
+### PostgreSQL connection string. For Mac hostname use `localhost` 
 ```
 psql://<UserName>:<DBPassword>@<Database Host>/<Database Name>
 ```
