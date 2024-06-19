@@ -23,3 +23,8 @@ openssl rsa -noout -text -in domain.key
 ```
 openssl s_client -showcerts -connect example.org:443
 ```
+
+### Verify Distinguished Name of SSL Certificate
+```
+openssl x509 -noout -subject -in domain.crt
+```
