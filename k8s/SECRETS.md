@@ -3,3 +3,8 @@
 ```
 openssl x509 -noout -dates -in domain.crt
 ```
+
+### Verify certificate file
+```
+openssl x509 -noout -text -in domain.crt
+```
