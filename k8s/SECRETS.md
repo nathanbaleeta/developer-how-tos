@@ -14,6 +14,11 @@ openssl x509 -noout -text -in domain.crt
 openssl req -noout -text -in domain.csr
 ```
 
+### Check PEM file
+```
+openssl x509 -in certificate.pem -text
+```
+
 ### Check private key file
 ```
 openssl rsa -in privateKey.key -check
