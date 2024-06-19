@@ -9,6 +9,11 @@ openssl x509 -noout -dates -in domain.crt
 openssl x509 -noout -text -in domain.crt
 ```
 
+### Check CSR file
+```
+openssl req -noout -text -in domain.csr
+```
+
 ### Checking the server’s SSL certificate
 ```
 openssl s_client -showcerts -connect example.org:443
