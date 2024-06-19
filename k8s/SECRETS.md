@@ -8,3 +8,8 @@ openssl x509 -noout -dates -in domain.crt
 ```
 openssl x509 -noout -text -in domain.crt
 ```
+
+### Checking the server’s SSL certificate
+```
+openssl s_client -showcerts -connect example.org:443
+```
