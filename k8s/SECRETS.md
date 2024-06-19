@@ -16,6 +16,10 @@ openssl req -noout -text -in domain.csr
 
 ### Check private key file
 ```
+openssl rsa -in privateKey.key -check
+```
+OR
+```
 openssl rsa -noout -text -in domain.key
 ```
 
