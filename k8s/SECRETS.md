@@ -14,6 +14,11 @@ openssl x509 -noout -text -in domain.crt
 openssl req -noout -text -in domain.csr
 ```
 
+### Check private key file
+```
+openssl rsa -noout -text -in domain.key
+```
+
 ### Checking the server’s SSL certificate
 ```
 openssl s_client -showcerts -connect example.org:443
