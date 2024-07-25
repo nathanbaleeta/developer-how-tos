@@ -14,6 +14,7 @@ helm repo update
 ```
 helm search repo <VIRTUAL_REPO>
 helm search repo dask (select dask/daskhub version==2024.1.0)
+helm search repo dagster
 ```
 #### Extract config values.yaml file from helpm virtual repo
 ```
