@@ -23,7 +23,7 @@ helm install <RELEASE_NAME> <VIRTUAL_REPO>/<CHART_NAME> -n <NAMESPACE>
 helm install project-daskhub dask/daskhub --version 2024.1.0 -n daskhub-dev
 ```
 ```
-helm install project-pipelines dagster/dagster \
+helm install release-name dagster/dagster \
     --namespace dagster-dev \
     --create-namespace
 ```
