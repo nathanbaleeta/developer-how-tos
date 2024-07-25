@@ -2,3 +2,7 @@
 ```
 helm repo list
 ```
+#### Add virtual repository
+```
+helm repo add <VIRTUAL_REPO>
+```
