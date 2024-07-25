@@ -6,3 +6,7 @@ helm repo list
 ```
 helm repo add <VIRTUAL_REPO>
 ```
+#### Update cache of local repos with latest artifacts
+```
+helm repo update
+```
