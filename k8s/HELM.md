@@ -10,3 +10,11 @@ helm repo add <VIRTUAL_REPO>
 ```
 helm repo update
 ```
+#### Search virtual repo for specific chart
+```
+helm search repo <VIRTUAL_REPO>
+helm search repo dask (select dask/daskhub version==2024.1.0)
+```
+#### Install specific chart
+helm install <RELEASE_NAME> <VIRTUAL_REPO>/<CHART_NAME> -n <NAMESPACE>
+helm install project-daskhub dask/daskhub --version 2024.1.0 -n daskhub-dev
