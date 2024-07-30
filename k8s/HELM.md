@@ -19,6 +19,7 @@ helm search repo dagster
 #### Extract config values.yaml file from helpm virtual repo
 ```
 helm show values dagster/dagster > config.yaml
+helm show values dask/daskhub > daskhub.yaml -n daskhub-staging
 ```
 
 #### Install specific chart
