@@ -4,3 +4,8 @@
 ```
 DATEDIFF(NOW(), hire_date)
 ```
+
+##### Convert column into temporal format natively
+```
+CAST (birth_date AS DATE)
+```
