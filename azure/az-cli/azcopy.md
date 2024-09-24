@@ -6,3 +6,6 @@ azcopy copy 'https://mystorageaccount.blob.core.windows.net/mycontainer/myTextFi
 ```
 
 #### Download a directory
+```
+azcopy copy 'https://<storage-account-name>.<blob or dfs>.core.windows.net/<container-name>/<directory-path>' '<local-directory-path>' --recursive
+```
