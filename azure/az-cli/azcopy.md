@@ -8,6 +8,11 @@ https://<storage-account-name>.blob.core.windows.net/<container-name><SAS-token>
 wget -O azcopy_v10.tar.gz https://aka.ms/downloadazcopy-v10-linux && tar -xfv azcopy_v10.tar.gz --strip-components=1
 ```
 
+### Extract [tar.gz](https://askubuntu.com/questions/25347/what-command-do-i-need-to-unzip-extract-a-tar-gz-file)
+```
+tar -xvzf downloadazcopy-v10-linux
+```
+
 #### Download a blob
 ```
 azcopy copy 'https://mystorageaccount.blob.core.windows.net/mycontainer/myTextFile.txt' '/tmp/myTextFile.txt'
