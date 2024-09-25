@@ -12,6 +12,7 @@ wget https://aka.ms/downloadazcopy-v10-linux
 ```
 tar -xvzf downloadazcopy-v10-linux
 ```
+Reference - https://help.pressidium.com/en/articles/6979427-how-to-extract-and-unzip-tar-gz-files
 
 #### Download a blob
 ```
