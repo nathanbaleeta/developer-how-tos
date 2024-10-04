@@ -28,6 +28,11 @@ brew info postgresql
 brew services start | restart postgresql@14
 ```
 
+### Connect to postgres shell
+```
+psql postgres
+```
+
 ### PostgreSQL connection string. For Mac hostname use `localhost` 
 ```
 psql://<UserName>:<DBPassword>@<Database Host>/<Database Name>
