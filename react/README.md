@@ -1,4 +1,4 @@
-#### How to show a Loading Message when Fetching Data 
+#### How to show a Loading Message when [Fetching Data](https://www.shecodes.io/athena/11556-react-how-to-show-a-loading-message-when-fetching-data)
 ```
 import React, { useState, useEffect } from 'react';
 
