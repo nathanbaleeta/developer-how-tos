@@ -1,4 +1,4 @@
-PS: If you'd rather use a SAS token to authorize access to blob data, then you can append that token to the resource URL in each AzCopy command. For example: 
+PS: If you'd rather use a [SAS token](https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10?tabs=dnf) to authorize access to blob data, then you can append that token to the resource URL in each AzCopy command. For example: 
 ```
 https://<storage-account-name>.blob.core.windows.net/<container-name><SAS-token>
 ```
