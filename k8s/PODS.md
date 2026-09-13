@@ -7,6 +7,12 @@ kubectl exec -n <namespace> -it <name_of_pod> -- /bin/bash
 ```
 kubectl -n <namespace> delete pods --field-selector=status.phase=Failed
 ```
+
+### Show the logs of a previously terminated container named ruby in the web-1 pod
+```
+kubectl logs -p -c ruby web-1
+```
+
 ## Display pod environment variables in in specific namespace
 ```
 kubectl exec -n <namespace> <name_of_pod> -- printenv
