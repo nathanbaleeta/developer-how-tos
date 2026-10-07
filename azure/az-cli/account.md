@@ -5,6 +5,11 @@
 az account list-locations -o table
 ```
 
+### Create resource group under subscription 
+```
+az group create -l westeurope -n rg-dev 
+```
+
 ### Get a list of subscriptions for the logged in account
 ```
 az account list
