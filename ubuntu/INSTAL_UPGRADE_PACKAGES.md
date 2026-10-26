@@ -4,6 +4,13 @@
 # bash
 sudo apt update
 ```
+
+#### List packages which need upgrading
+```
+# bash
+sudo apt list --upgradable
+```
+
 #### Upgrade the specific package
 ```
 # bash
