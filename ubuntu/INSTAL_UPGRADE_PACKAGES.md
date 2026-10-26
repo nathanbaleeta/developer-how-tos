@@ -9,3 +9,9 @@ sudo apt update
 # bash
 sudo apt install --only-upgrade package
 ````
+
+#### Upgrade multiple specific packages at once
+```
+# bash
+sudo apt inistall --only-upgrade package1 package2 
+```
