@@ -4,6 +4,13 @@
 # bash
 sudo apt update
 ```
+#### Upgrade all installed packages
+Updates your existing software to the latest versions
+```
+# bash
+sudo apt upgrade
+
+```
 
 #### List packages which need upgrading
 ```
