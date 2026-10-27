@@ -17,18 +17,24 @@ Displays matching names and descriptions.
 # bash
 apt search package_name
 ```
-
-#### List packages which need upgrading
-```
-# bash
-sudo apt list --upgradable
-```
-
 #### Show package info
 Shows version details, dependencies, and a full description.
 ```
 # bash
 apt show package_name
+```
+
+#### List installed packages
+Lists every package currently on your system
+```
+# bash
+apt list --installed
+```
+
+#### List packages which need upgrading
+```
+# bash
+sudo apt list --upgradable
 ```
 
 #### Upgrade the specific package
