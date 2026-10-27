@@ -24,6 +24,13 @@ apt search package_name
 sudo apt list --upgradable
 ```
 
+#### Show package info
+Shows version details, dependencies, and a full description.
+```
+# bash
+apt show package_name
+```
+
 #### Upgrade the specific package
 ```
 # bash
