@@ -9,7 +9,13 @@ Updates your existing software to the latest versions
 ```
 # bash
 sudo apt upgrade
+```
 
+#### Search for a package
+Displays matching names and descriptions.
+```
+# bash
+apt search package_name
 ```
 
 #### List packages which need upgrading
