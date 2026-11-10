@@ -1,4 +1,4 @@
-### Tips for becoming productive in developing Spring Boot backend APIs
+### Tips for becoming productive in developing Spring Boot backend APIs on Ubuntu
 
 1. Install latest **Java version** using **APT** package manager
    ```
