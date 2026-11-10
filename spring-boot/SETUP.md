@@ -1,20 +1,16 @@
 ### Tips for becoming productive in developing Spring Boot backend APIs
 
-1. Install latest Java version using APT package manager
+1. Install latest **Java version** using **APT** package manager
    ```
    sudo apt install default-jdk
    ```
 
-2. Install IntelliJ IDEA using snap package manager:
+2. Install **IntelliJ IDEA** using snap package manager:
    ```
    sudo snap find "IntelliJ"
    sudo snap install intellij-idea
    java -version
    ```
-3. Generate Spring boot artifacts suing Spring Initializr:
-   Copy and paste in browser and use stable versions
-   ```
-   start.spring.io
-   ```
+3. Generate Spring boot artifacts using [Spring Initializr](start.spring.io). Remember to fix dependencies to stable versions
    
-1. 
+4. Maintain `IdeaProjects` home in the default location to avoid Maven builds from breaking
