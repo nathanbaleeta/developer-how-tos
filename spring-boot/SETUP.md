@@ -12,5 +12,16 @@
    sudo snap install intellij-idea
    ```
 3. Generate Spring boot artifacts using [Spring Initializr](start.spring.io). Remember to fix dependencies to stable versions
+
+4. Create empty repo on Github. Remember to toggle from `HTTPS` to `SSH`
+   ```
+   echo "# workhaven-hr" >> README.md
+   git init
+   git add README.md
+   git commit -m "first commit"
+   git branch -M main
+   git remote add origin git@github.com:nathanbaleeta/workhaven-hr.git
+   git push -u origin main
+```
    
-4. Maintain `IdeaProjects` home directory in the default location to avoid Maven builds from breaking
+5. Maintain `IdeaProjects` home directory in the default location to avoid Maven builds from breaking
