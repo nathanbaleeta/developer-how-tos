@@ -13,4 +13,4 @@
    ```
 3. Generate Spring boot artifacts using [Spring Initializr](start.spring.io). Remember to fix dependencies to stable versions
    
-4. Maintain `IdeaProjects` home in the default location to avoid Maven builds from breaking
+4. Maintain `IdeaProjects` home directory in the default location to avoid Maven builds from breaking
