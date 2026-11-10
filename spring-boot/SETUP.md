@@ -22,6 +22,6 @@
    git branch -M main
    git remote add origin git@github.com:nathanbaleeta/workhaven-hr.git
    git push -u origin main
-```
+   ```
    
 5. Maintain `IdeaProjects` home directory in the default location to avoid Maven builds from breaking
